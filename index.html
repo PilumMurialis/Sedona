@@ -3,46 +3,124 @@
 <head>
     <meta charset="UTF-8">
     <title>Sedona</title>
-    <header class="header">
-        <nav class="user__nav">
-            <a href="info" class="class">
-                ИНФОРМАЦИЯ
-            </a>
-            <a href="photo" class="class">
-                ФОТО И ВИДЕО
-            </a>
-            <a href="map" class="class">
-                КАРТА ШТАТА
-            </a>
-            <a href="hotels" class="class">
-                ГОСТИНИЦЫ
-            </a>
-        </nav>
-        <img src="./source/img/welcome.png" alt="welcome">
-        <img src="./source/logo/logo.png" alt="logo">
-    </header>
+    <link rel="stylesheet" href="./source/css/stylesheet.css">
 </head>
 <body>
     <main>
-            <div class="dscr"
-              <span class="dscr__title">
-                      Седона — небольшой городок в Аризоне,
-                      заслуживающий большего!
-
-              </span>
-            <br>
-              <span class="dscr__title">
-                      Рассмотрим 5 причин, по которым Седона круче, чем гранд каньон!
-              </span>
-                <span class="dsrc__title">
-                  Настоящий
-городок
-
-— №1 —
-
-Седона — не аттракцион для туристов, там течёт своя жизнь
+        <section>
+                <h1>
+                    Седона — небольшой городок в Аризоне,
+                    заслуживающий большего!
+                </h1>
+                <span class="sedona__info__title">
+                       Рассмотрим 5 причин, по которым Седона круче, чем гранд каньон!
                 </span>
-            </div>
+        </section>
+        <section class="sedona__descr">
+                <h3 class="sedona__subtitle">
+                             Настоящий городок
+                </h3>
+                <span class="sedona__block__title">
+                             - №1 -
+                </span>
+            <br>
+                <span class="sedona__block__title">
+                             Седона - не аттракцион для туристов, тут течёт своя жизнь.
+                </span>
+        </section>
+        <section>
+                <ul>
+                    <li class="dscr__title">
+                            Жильё
+                    </li>
+                        <span>
+                            Рекомендуем пожить в настоящем мотеле, всё как в кино!
+                        </span>
+                    <li class="dscr__title">
+                            Еда
+                    </li>
+                        <span>
+                            Всегда заказывайте фирменный бургер, вы не разочаруетесь
+                        </span>
+                    <li class="dscr__title">
+                            Сувениры
+                    </li>
+                        <span>
+                            Не только китайского, но и местного производства!
+                        </span>
+                </ul>
+        </section>
+        <section class="sedona__descr">
+            <h3 class="sedona__subtitle">
+                Там есть мост дьявола
+            </h3>
+            <span class="sedona__block__title">
+                - № 2 -
+            </span>
+            <span class="sedona__block__title">
+                 Да, по нему можно пройти! Если, конечно, вы осмелитесь.
+            </span>
+        </section>
+        <section>
+            <ul>
+                <li class="advantages">
+                    Небольщая площадь
+                </li>
+            <span>
+                     - №3 -
+            </span>
+
+            <span>
+                    Все достопримечательности находятся очень близко
+            </span>
+                <li class="advantages">
+                    Красивая дорога
+                </li>
+            <span>
+                    - № 4 -
+            </span>
+                    Ехать в Седону из Лас-Вегаса совсем не скучно!
+            <span>
+
+            </span>
+                <li class="advantages">
+                    Мало туристов
+                </li>
+            <span>
+                    - №5 -
+            </span>
+                    Большинство едет в Гранд Каньон и толпится там
+            <span>
+
+            </span>
+            </ul>
+        </section>
+        <section>
+            <h2>
+                Заинтересовались?
+            </h2>
+            <span>
+                Укажите предполагаемые даты поездки,
+                и мы покажем вам лучшие предложения гостиниц в седоне
+            </span>
+        </section>
+        <section class="usr__booking">
+            <form action="" method="POST">
+                <label for="date"> Дата заезда : </label>
+                <input id="date" type="date" name="date">
+
+                <label for="date__out"> Дата выезда : </label>
+                <input id="date__out" type="date" name="date">
+
+                <label for="adults"> Взрослые : </label>
+                <input id="adults" type="number" placeholder="3" min="0">
+
+                <label for="children"> Дети : </label>
+                <input id="children" type="number" placeholder="2" min="0">
+
+                <button name="usr__button" type="button">Найти</button>
+            </form>
+        </section>
     </main>
 
 </body>
