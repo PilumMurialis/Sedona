@@ -1,9 +1,144 @@
-.header {
-    font-family: PTSans;
+body {
+    font-family: "PT Sans" , sans-serif;
+    font-weight: 400;
 }
 .user__nav {
+    height: 56px;
+    padding-top: 30px;
+}
+.user__nav__logo{
+    margin-top: 18px;
+    margin-right: 28px;
+}
+
+.welcome {
+    display: block;
+    margin: 0 auto;
+    padding-top: 80px;
+    padding-bottom: 20px;
+}
+.header {
+    background-image: url("../img/background_photo.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
 
 }
+.h1 {
+    display: flex;
+    justify-content: center;
+    margin-top: 64px;
+    margin-bottom: 40px;
+}
+.test {
+    min-height:256px ;
+    justify-content: center;
+    margin-top:56px ;
+    display: flex;
+    flex-direction: column;
+    color: white;
+    background-color: #81b3d2;
+}
+.test2 {
+    margin-top: 82px;
+    margin-bottom: 44px ;
+    list-style: none;
+}
+.test2__list{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+}
+.test2__fonts{
+    margin-bottom: 10px;
+    display: block;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 21px;
+    font-weight: bold;
+    color: #000000;
+}
+.test2__descr{
+    font-size: 14px;
+    text-transform: uppercase;
+    line-height: 1.5;
+    text-align: center;
+    color: #333333;
+}
+.dscr__title{
+    width: 33.3%;
+}
+.test3{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    color: white;
+    background-color: #81b3d2;
+    margin-bottom: 50px;
+    min-height: 256px;
+    justify-content: center;
+}
+.test4{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    text-transform: uppercase;
+    line-height: 1.5;
+    text-align: center;
+    font-size: 14px;
+    background-color: #0001011a;
+    margin-bottom: 122px;
+    min-height: 256px;
+    align-items: center;
+}
+.test4__fonts{
+    font-size: 22px;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: bold;
+    color: #000000;
+}
+.test5{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    font-size: 30px;
+    text-transform: uppercase;
+}
+.test5__descr{
+    text-transform: uppercase;
+    display: flex;
+    margin-top: 48px;
+    font-size: 14px;
+    justify-content: center;
+    text-align: center;
+
+}
+.sedona__info__title{
+    display: flex;
+    justify-content: center;
+}
+
+.user__nav__list {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #FFFFFF;
+    height: 56px;
+    margin: 0;
+    padding: 0;
+
+    list-style: none;
+}
+
+.user__nav__link {
+    text-decoration: none;
+    color: #000000;
+    font-weight: bold;
+}
+
 .sedona__dscr {
     background-color: #81b3d2;
 }
@@ -12,5 +147,24 @@
 
 }
 .sedona__block__title {
+
+}
+.footer__social__item {
+    height: 24px;
+    width: 24px;
+    padding: 6px;
+    background-color: #81b3d2;
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 4px;
+
+
+}
+.footer__social__list {
+    display: flex;
+    padding: 0px;
+    margin: 0px;
 
 }
